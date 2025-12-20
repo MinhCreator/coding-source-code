@@ -1,0 +1,31 @@
+C:\Program Files (x86)\oh-my-posh\bin\
+C:\Program Files\Python313\Scripts\
+C:\Program Files\Python313\
+c:\windows\system32
+c:\windows
+c:\windows\system32\wbem
+c:\windows\system32\windowspowershell\v1.0\
+c:\programdata\chocolatey\bin
+c:\program files\windowspowershell\scripts
+c:\program files\dotnet\
+d:\vscodium\bin
+d:\neovim\bin
+c:\program files\neovide\
+c:\program files\git\cmd
+D:\VSCode\bin
+C:\Program Files\GitHub CLI\
+D:\software\nodejs\
+C:\Program Files\Git\cmd
+D:\VSCodium\bin
+C:\Users\Administrator\AppData\Local\Programs\oh-my-posh\bin\
+C:\tools\Scoop\shims
+C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps
+C:\Users\Administrator\AppData\Local\Programs\oh-my-posh\bin
+C:\tools\neovim\nvim-win64\bin
+C:\tools\lua\bin
+C:\tools\luarocks
+C:\Users\Administrator\AppData\Local\Programs\Ollama
+C:\ProgramData\mingw64\mingw64\bin
+C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Links
+C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\scripts
+C:\Users\Administrator\AppData\Roaming\npm

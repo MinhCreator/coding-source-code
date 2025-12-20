@@ -1,0 +1,41 @@
+# đầu tiên là push file lên new repo github
+
+Step 1: git init 
+
+Step 2: git add ./
+
+Step 3: git commit -m "message"
+
+Step 4: git branch -M <name branch>
+
+Step 5: git remote add origin "url của repo"
+
+Step 6: git push -u origin main
+
+
+
+
+# tiếp theo là push file lên existing repo github
+
+Step 1: git init (lại thêm lần nữa)
+
+Step 2: git add ./ (để thêm file vừa tạo hoặc code mới sửa)
+
+Step 3: git commit -m "message" 
+
+Step 4: git branch -M <name branch của repo>
+
+Step 5: git push -u origin main
+
+# update code in github using git
+
+Step 1: Open terminal and enter the folder of the github repository/project you want to update
+Step 2: Type into terminal: “git add .” and then hit enter
+Step 3: Type into terminal “git status” and then hit enter (this step is optional)
+Step 4: Type into terminal “git commit -m ‘type any message here” and then hit enter
+Step 5: Type into terminal “git push” and then hit enter
+
+
+
+
+git checkout -b "name branch" # vừa tạo branch và vừa chuyển tới branch đó
