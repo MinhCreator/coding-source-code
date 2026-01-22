@@ -2,9 +2,9 @@ import random
 import names
 
 
-def Random_pass(active):
+def Random_pass():
 
-  if active == 'active':
+
 
     #variables to storage character, number and symbol
     character_lower_case = "qwertyuiopasdfghjklzxcvbnm"
@@ -33,9 +33,8 @@ def Random_pass(active):
     return f'password: {password}'
 
 
-def generate_email_and_user_name(bool):
+def generate_email_and_user_name():
 
-  if bool == 'true':
 
     #var to storage generater name
 
@@ -79,20 +78,18 @@ def anonymous(key):
            raise SystemExit(0)
 
 
-def check_function(active, run_function_email, run_function_password):
+def check_function():
 
-  if run_function_email == 'on':
+  
 
-    print(generate_email_and_user_name(active))
+    print(generate_email_and_user_name())
 
-  if run_function_password == 'on':
-
-    print(Random_pass(active))
+    print(Random_pass())
 
 
 
-active_or_inactive = input('active or inactive:')
-print(Random_pass(active_or_inactive))
+print(check_function())
+
 # run_function_email = str(input("generate email on or off:"))
 
 # run_function_password = str(input("generate password on or off:"))
