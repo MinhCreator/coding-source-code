@@ -9,19 +9,21 @@
 # # 
 # print(lst)
 
-def phanTichSoNguyen(n):
-    i = 2;
-    listNumbers = [];
+def phanTichSoNguyen(number : int) -> list[int]:
+    i: int = 2;
+    listNumbers = []
     # phân tích
-    while (n > 1):
-        if (n % i == 0):
-            n = int(n / i);
+    while (number > 1):
+        if (number % i == 0):
+            n = int(number / i);
             listNumbers.append(i);
         else:
             i = i + 1;
     # nếu listNumbers trống thì add n vào listNumbers
     if (len(listNumbers) == 0):
-        listNumbers.append(n);
+        listNumbers.append(number);
     return listNumbers;
 
 print(phanTichSoNguyen(100))
+
+    
